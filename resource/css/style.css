@@ -38,6 +38,7 @@ header {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 h1 {
      color: #fff;
     font-size: 240%;
@@ -84,3 +85,36 @@ background-color: #bf6516;
     color: #fff;
 }
 
+@media only screen and (max-width: 800px){
+    
+h1 {
+     color: #fff;
+    font-size: 140%;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 100;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.btn:link,
+.btn:visited {
+    
+    border-radius: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 200;
+    text-decoration: none;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+    
+    .btntags,
+    .headertext{
+        
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
